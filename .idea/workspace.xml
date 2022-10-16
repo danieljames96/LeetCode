@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="PivotIndex completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/isomorphicStrings.java" afterDir="false" />
+    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="isomorphicStrings completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/stringSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.isomorphicStrings">
+  <component name="RunManager" selected="Application.stringSubsequence">
     <configuration name="isomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DailyLevel1.isomorphicStrings" />
       <module name="LeetCode" />
@@ -84,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stringSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyLevel1.stringSubsequence" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DailyLevel1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stringSubsequence" />
         <item itemvalue="Application.isomorphicStrings" />
         <item itemvalue="Application.pivotIndex" />
         <item itemvalue="Application.runningSum" />
@@ -129,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665932931279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="isomorphicStrings completed">
+      <created>1665934881801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665934881801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +168,7 @@
     <MESSAGE value="Commit Changes" />
     <MESSAGE value="RunningSum completed" />
     <MESSAGE value="PivotIndex completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="PivotIndex completed" />
+    <MESSAGE value="isomorphicStrings completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="isomorphicStrings completed" />
   </component>
 </project>
