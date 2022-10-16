@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="Commit Changes">
+    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="RunningSum completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/runningSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/runningSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665826593319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RunningSum completed">
+      <created>1665827727901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665827727901</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Changes" />
+    <MESSAGE value="RunningSum completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="RunningSum completed" />
   </component>
 </project>
