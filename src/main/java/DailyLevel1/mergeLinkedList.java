@@ -12,6 +12,18 @@ package DailyLevel1;
  */
 
 public class mergeLinkedList {
+
+    public static void printList(ListNode node){
+        System.out.print("[");
+        while(node != null){
+            System.out.print(node.val);
+            node = node.next;
+            if(node!= null){
+                System.out.print(", ");
+            }
+        }
+        System.out.print("]");
+    }
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
         ListNode result = new ListNode();
@@ -43,20 +55,20 @@ public class mergeLinkedList {
         ListNode head1 = list1;
         ListNode head2 = list2;
 
-//        list1.val = 1;
-//        list1.next = new ListNode(2);
-//        list1 = list1.next;
-//        list1.next = new ListNode(4);
-//        list1 = list1.next;
+        list1.next = new ListNode(1);
+        list1 = list1.next;
+        list1.next = new ListNode(2);
+        list1 = list1.next;
+        list1.next = new ListNode(4);
+        list1 = list1.next;
 
-        list2.val = 1;
+        list2.next = new ListNode(1);
+        list2 = list2.next;
         list2.next = new ListNode(3);
         list2 = list2.next;
         list2.next = new ListNode(4);
         list2 = list2.next;
 
-        ListNode sortedList = mergeTwoLists(head1,head2);
-
-        sortedList.printList(sortedList);
+        printList(mergeTwoLists(head1.next,head2.next));
     }
 }
