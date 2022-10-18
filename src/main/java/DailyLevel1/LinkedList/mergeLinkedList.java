@@ -1,4 +1,4 @@
-package DailyLevel1;
+package DailyLevel1.LinkedList;
 
 /**
  * Definition for singly-linked list.

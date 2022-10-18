@@ -1,4 +1,4 @@
-package DailyLevel1;
+package DailyLevel1.String;
 
 public class stringSubsequence {
     public static boolean isSubsequence(String s, String t) {

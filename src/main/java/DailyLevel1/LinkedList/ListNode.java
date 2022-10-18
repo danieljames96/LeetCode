@@ -1,6 +1,4 @@
-package DailyLevel1;
-
-import java.util.List;
+package DailyLevel1.LinkedList;
 
 public class ListNode {
       int val;

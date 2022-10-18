@@ -1,4 +1,4 @@
-package DailyLevel1;
+package DailyLevel1.String;
 
 import java.util.Arrays;
 

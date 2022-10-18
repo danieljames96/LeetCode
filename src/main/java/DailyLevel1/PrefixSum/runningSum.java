@@ -1,4 +1,4 @@
-package DailyLevel1;
+package DailyLevel1.PrefixSum;
 
 import java.util.Arrays;
 
