@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="mergeLinkedList completed">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/LinkedList/reverseLinkedList.java" afterDir="false" />
+    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="reverseLinkedList completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/LinkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/isomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/String/isomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/mergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/LinkedList/mergeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/pivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/PrefixSum/pivotIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/runningSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/PrefixSum/runningSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyLevel1/stringSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/String/stringSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666018277388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reverseLinkedList completed">
+      <created>1666077080169</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666077080169</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +212,7 @@
     <MESSAGE value="isomorphicStrings completed" />
     <MESSAGE value="stringSubsequence completed" />
     <MESSAGE value="mergeLinkedList completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="mergeLinkedList completed" />
+    <MESSAGE value="reverseLinkedList completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverseLinkedList completed" />
   </component>
 </project>
