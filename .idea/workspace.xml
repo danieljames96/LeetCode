@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="middleLinkedList completed&#10;cycleLinkedList completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/LinkedList/cycleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/LinkedList/middleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/Greedy/maxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +44,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.cycleLinkedList">
+  <component name="RunManager" selected="Application.maxProfit">
     <configuration name="cycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DailyLevel1.LinkedList.cycleLinkedList" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DailyLevel1.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyLevel1.Greedy.maxProfit" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DailyLevel1.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DailyLevel1.String.stringSubsequence" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DailyLevel1.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maxProfit" />
         <item itemvalue="Application.cycleLinkedList" />
         <item itemvalue="Application.middleLinkedList" />
         <item itemvalue="Application.reverseLinkedList" />
         <item itemvalue="Application.mergeLinkedList" />
-        <item itemvalue="Application.stringSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666086481153</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="middleLinkedList completed&#10;cycleLinkedList completed">
+      <created>1666195180928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666195180928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
