@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="middleLinkedList completed&#10;cycleLinkedList completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/Greedy/maxProfit.java" afterDir="false" />
+    <list default="true" id="f1de3eac-6b72-402d-b3d7-af29b8244abe" name="Changes" comment="maxProfit completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DailyLevel1/Greedy/longestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.maxProfit">
+  <component name="RunManager" selected="Application.longestPalindrome">
     <configuration name="cycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DailyLevel1.LinkedList.cycleLinkedList" />
       <module name="LeetCode" />
@@ -58,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DailyLevel1.Greedy.maxProfit" />
+    <configuration name="longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyLevel1.Greedy.longestPalindrome" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DailyLevel1.LinkedList.mergeLinkedList" />
+    <configuration name="maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyLevel1.Greedy.maxProfit" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DailyLevel1.LinkedList.*" />
+          <option name="PATTERN" value="DailyLevel1.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.longestPalindrome" />
         <item itemvalue="Application.maxProfit" />
         <item itemvalue="Application.cycleLinkedList" />
         <item itemvalue="Application.middleLinkedList" />
         <item itemvalue="Application.reverseLinkedList" />
-        <item itemvalue="Application.mergeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666195180928</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="maxProfit completed">
+      <created>1666197372160</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666197372160</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +236,7 @@
     <MESSAGE value="mergeLinkedList completed" />
     <MESSAGE value="reverseLinkedList completed" />
     <MESSAGE value="middleLinkedList completed&#10;cycleLinkedList completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleLinkedList completed&#10;cycleLinkedList completed" />
+    <MESSAGE value="maxProfit completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="maxProfit completed" />
   </component>
 </project>
