@@ -6,6 +6,7 @@ public class maxProfit {
         int lsf = Integer.MAX_VALUE;
         int op = 0, tp = 0;
 
+
         if(length == 0 || length == 1){
             return 0;
         }
