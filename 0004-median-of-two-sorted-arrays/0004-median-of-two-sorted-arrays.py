@@ -18,8 +18,9 @@ class Solution:
         i2 = 0
         num1 = num2 = None
         x = 0
+        limit = max(n1, n2)
 
-        while count < l:
+        while count < limit:
             if i1 == m:
                 a = float(inf)
             else:
