@@ -14,12 +14,13 @@ class Solution:
                     continue
             if s[i].isdigit():
                 num = num*10 + int(s[i])
+                if sign == 1 and num > (2**31) - 1:
+                    num = (2**31) - 1
+                    break
+                elif sign == -1 and num > (2**31):
+                    num = (2**31)
+                    break
             else:
                 break
-        
-        if sign == 1 and num > (2**31) - 1:
-            num = (2**31) - 1
-        elif sign == -1 and num > (2**31):
-            num = (2**31)
 
         return sign*num
