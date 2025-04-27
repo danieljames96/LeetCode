@@ -10,8 +10,6 @@ class Solution:
                 num_hash[nums[i]] = 1
             else:
                 num_hash[nums[i]] += 1
-        
-        # print(f'num_hash: {num_hash}')
 
         for key, value in num_hash.items():
             if key in removed:
