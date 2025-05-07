@@ -20,10 +20,10 @@ class Solution:
 
         while min_k < max_k:
             if check_feasible(mid):
-                print(f'Feasible for k: {mid}')
+                # print(f'Feasible for k: {mid}')
                 max_k = mid
             else:
-                print(f'Not feasible for k: {mid}')
+                # print(f'Not feasible for k: {mid}')
                 min_k = mid+1
             mid = min_k + (max_k - min_k)//2
         
